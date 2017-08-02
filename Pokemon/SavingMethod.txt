@@ -1,0 +1,3 @@
+<저장 형식>
+
+user.id user.pw user.name user.money

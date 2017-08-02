@@ -1,0 +1,19 @@
+#pragma once
+
+#include"Pokemon.h"
+#include"Skill.h"
+
+/*
+	Type = Fire
+	Name = "««√Ú", "««ƒ´√Ú", "∂Û¿Ã√Ú"
+*/
+
+class Light1 : public Pokemon
+{
+public:
+	Light1();
+	~Light1();
+
+	void setSkill();	//Ω∫≈≥ º≥¡§.
+};
+

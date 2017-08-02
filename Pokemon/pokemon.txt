@@ -1,0 +1,34 @@
+//괄호 안은 포켓몬 고유번호(ID)
+
+//고유번호는 사용자가 치트로 생성할 때.
+//PokemonID는 랜덤으로 생성하기 위해.
+
+//포켓몬 추가하려면 : 
+	class파일 생성 (cpp & h).
+	PokemonClasses.h에 define 수정.
+	Pokemon.h에 Enum PokemonID 수정.
+	App.h에 fieldMenu(), fieldFind(), battleMenu() 수정.
+
+<불 포켓몬> (1xx)
+class fire1 -> 파이리(110) 리자드(111) 리자몽(112)
+class fire2 -> 가디(120) 윈디(121) 윈디(122)
+class fire3 -> 포니타(130) 날쌩마(131) 날쌩마(132)
+
+<물 포켓몬> (2xx)
+class water1 -> 꼬부기(210) 어니부기(211) 거북왕(212)
+class water2 -> 고라파덕(220) 골덕(221) 골덕(222)
+class water3 -> 잉어킹(230) 갸라도스(231) 메가갸라도스(232)
+
+<풀 포켓몬> (3xx)
+class grass1 -> 이상해씨(310) 이상해풀(311) 이상해꽃(312)
+class grass2 -> 뚜벅쵸(320) 냄새꼬(321) 라플레시아(322)
+class grass3 -> 아라리(330) 나시(331) 나시(332)
+
+<전기 포켓몬> (4xx)
+class light1 -> 피카츄(410, 20)
+
+<전설 포켓몬> (9xx)
+class legend1 -> 썬더(910)
+class legend2 -> 파이어(920)
+
+치트 : 아무키나눌러전투진행 에서 q : 썬더, w : 파이어
